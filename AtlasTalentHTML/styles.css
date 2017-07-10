@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*@font-face {
+font-family: 'Oxygen', sans-serif;
+src: url(‘https://fonts.googleapis.com/css?family=Oxygen’);
+}*/
+ 
+body {
+	font-family: 'Oxygen', sans-serif;
+	background-color: rgb(239,239,239);
+	margin:0;
+}
+h1 { 
+	color:rgba(6,147,255,1.00);
+}
+h2 {
+	color:rgba(0,0,0,1.00);
+}
+a {
+	color:rgba(6,147,255,1.00);
+	text-decoration: none;	
+}
+a:hover {
+	text-decoration: underline;
+}
+.required {
+	color:red;
+}
+
+/* HEADER */
+header {
+	color:rgba(6,147,255,1.00);
+	background-color:rgba(0,0,0,1.00);
+	height: 25px;
+	width: 100%;	
+}
+header > span {
+	color: white;
+    padding-left:1%;
+    padding-right:1%;
+    font-size: 16px;
+    transform: translateY(-50%);
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
+header > span > a {
+	color: white;
+    text-decoration: underline;
+}
+#headTxt {
+	float:left;
+}
+
+#headStatus {
+	float:right;
+}
+
+/* NAVIGATION */
+nav {
+	background-color:#Efefef;
+	text-align: center;	
+    width:950px;
+    margin:auto;
+}
+nav a {
+	color:rgb(255,255,255);	
+}
+nav a:hover{
+	text-decoration: underline;
+	color:rgb(0,0,0);
+}
+header, nav, footer {
+	padding-top: 1em;
+	padding-bottom:1em;
+	box-sizing: border-box;
+	flex-basis: 100%
+}
+.navbutton {
+    font-family: 'Bowlby one';
+    font-size: 18px;
+    border: none;
+    width:135px;
+    padding: 15px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    
+    margin: 4px 2px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#bhome {
+    background-color:#344D5C;    
+}
+
+#bproject {
+    background-color:#F0C749;
+}
+
+#btalent {
+    background-color:#E35135;    
+}
+
+#bbuyer {
+    background-color:#1C83C0;
+}
+
+#bpayment {
+    background-color:#00C986;    
+}
+
+#breports {
+    background-color:#EC7C30;
+}
+.line{
+    width: 112px;
+    height: 0px;
+    position:abosolute;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+#tline {
+    transform:translate(383px,-10px);
+    border-bottom: 8px solid #E35136;
+    position:absolute;
+}
+/* fix the translate by using padding/margins! */
+
+/* MAIN */
+main {
+	display: flex;
+	width:850px;
+	align-content: center;
+	margin-top: 0;
+    margin-left:auto;
+    margin-right:auto;
+	box-sizing: border-box;	
+	
+}
+#section-titlesearch {
+    width:100%;
+    padding-bottom:15px;
+    margin-bottom:5px;
+    margin-top:0px;
+    background-color:white;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+.talentname {
+    text-align:center;
+    padding-top:20px;
+    font-family:'bowlby one';
+    font-size:30px;
+}
+#section-talentoptions {
+    width:100%;
+    margin-bottom:5px;
+}
+.infobutton {
+    font-family: 'Bowlby One';
+    font-size:100%;
+    border: none;
+    width:32.55%;
+    height:200px;
+    padding-top:130px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    margin:4px 2px;
+    background-repeat:no-repeat;
+    background-color:white;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);  
+}
+#btinfo {
+    background-image:url(contactinfoicon.png);
+    background-size:70%;
+    background-position:50% 25%;
+}
+#btpayment {
+    background-image:url(paymenticon.png);
+    background-size:60%;
+    background-position:50% 25%;
+}
+#btcalendar {
+    background-image:url(calendaricon.png);
+    background-size:45%;
+    background-position:50% 25%
+}
+#section-talentinfo {
+    width:100%;
+    height:500px;
+    margin-bottom:2%;
+    background-color:white;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.div-title {
+    font-family:'Bowlby One';
+    font-size:18px;
+    color:white;
+    background-color:#E35136;
+    height:40px;
+    padding-top:10px;
+    padding-left:10px;
+}
+#profileimg{	
+    width:296px;
+    height:294px;
+	background-image: url('elvisprofile.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size:100%;
+	border-radius:50%;
+    margin-left:40px;
+    margin-top:15px;
+}
+.talentsignature {
+    font-family:'mr dafoe';
+    font-size:40px;
+    margin-left:95px; 
+}
+
+/* FOOTER */
+footer {
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(0,0,0,1.00);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* If less than or equal to 960 */
+@media screen and (max-width: 960px) {
+	nav ul {
+		display:inline-block;
+		margin:auto;
+	}
+	nav ul > li{
+		width:100%;
+		display:block;
+	}
+	main {
+		flex-flow: column;
+	}
+	#section-reading-dog {
+	margin:auto;
+}
+}
+/* If greater than 960 */
+@media screen and (min-width: 961px) {
+	main {
+		flex-flow: row wrap;
+		max-width: 960px;
+	}
+	#section-reading-dog, #section-quoteoftheday, #section-whatreading, #section-favoritegenres {
+		/* flex-basis: 0 0 50%; */
+		width: 50%;
+	}
+	#section-about {
+		/* flex-basis: 0 0 100%; */
+		width:100%
+	}
+	#section-contact {
+		/* flex-basis: 0 0 100%; */
+		width: 100%;	
+	}
+	nav ul > li {
+		width:10em;
+		
+	}
+}
